@@ -1,18 +1,21 @@
 Package: kewr
 Title: R Package to Access Kew Data APIs
 Version: 0.6.2
-Authors@R: 
-    person(given = "Barnaby",
-           family = "Walker",
-           role = c("aut", "cre"),
-           email = "barnabywalker08@gmail.com",
-           comment = c(ORCID = "0000-0002-3884-671X"),),
+Authors@R: c(
+    person(
+        given = "Barnaby",
+        family = "Walker",
+        role = c("aut", "cre"),
+        email = "barnabywalker08@gmail.com",
+        comment = c(ORCID = "0000-0002-3884-671X")
+    ),
     person(
         given = "Sebastian",
         family = "Grandes",
         role = c("cre", "ctb"),
         email = "sebastiangrandesc@gmail.com"
     )
+)
 Description: An R package to access data from RGB Kew’s APIs.
 License: MIT + file LICENSE
 Encoding: UTF-8

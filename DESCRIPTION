@@ -15,7 +15,7 @@ Authors@R: c(
         role = c("cre", "ctb"),
         email = "sebastiangrandesc@gmail.com"
     )
-)
+    )
 Description: An R package to access data from RGB Kew’s APIs.
 License: MIT + file LICENSE
 Encoding: UTF-8

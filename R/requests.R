@@ -153,7 +153,7 @@ get_url_ <- function(resource=c("wcvp", "powo", "knms", "ipni", "tol", "krs")) {
 
   switch(resource,
          wcvp="https://wcvp.science.kew.org/api/v1",
-         powo="http://www.plantsoftheworldonline.org/api/2",
+         powo="https://powo.science.kew.org/api/2",
          knms="http://namematch.science.kew.org/api/v2/powo/match",
          ipni="https://www.ipni.org/api/1",
          tol="https://treeoflife.kew.org/api",
